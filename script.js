@@ -172,7 +172,7 @@ remain.addEventListener("click", () => {
   remain.disabled = true;
   change.disabled = true;
 });
-var favicon = require('serve-favicon')
+/*var favicon = require('serve-favicon')
 const app = express();
 const PORT = process.env.PORT || 3001
 app.use(favicon(path.join(__dirname, 'img', 'favicon.ico'))) 
@@ -188,3 +188,4 @@ app.get('/favicon.ico', function(req, res) {
           app.listen(PORT, () => {
               console.log("Running")
           });
+*/
