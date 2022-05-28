@@ -216,3 +216,23 @@ button[type="submit"]:focus{
 .wrong{
   color:#e6e6e6;
 }
+#menu{
+  list-style-type: none;  text-decoration: none;
+
+  padding: 20px 20px 5px 20px;
+}
+.itemOfMenu{
+  font-size: 20px;
+  text-align: center;
+}
+.itemOfMenu a{
+  color: white;
+  text-decoration: none;
+  background-color: #FF6B6B;
+  border-radius: 7px;
+  padding: 6px;
+}
+.itemOfMenu a:hover{
+  opacity: 0.8;
+  transition: 1s;
+}
