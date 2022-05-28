@@ -1,0 +1,14 @@
+  body {
+    box-sizing: border-box;
+    background-color: #343330;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .cont {
+
+    display: none;
+  }
+  #info{
+    display: none;
+  }
