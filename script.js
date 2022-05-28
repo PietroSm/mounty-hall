@@ -172,3 +172,19 @@ remain.addEventListener("click", () => {
   remain.disabled = true;
   change.disabled = true;
 });
+var favicon = require('serve-favicon')
+const app = express();
+const PORT = process.env.PORT || 3001
+app.use(favicon(path.join(__dirname, 'img', 'favicon.ico'))) 
+app.use(urlencoded({ extended: false })) ;
+app.use(express.json())
+app.get('/favicon.ico', function(req, res) {
+  res.writeHead(200, {'Content-Type': 'image/x-icon'} );
+  res.status(204);
+  res.end();
+  console.log("error araha hia")
+});
+
+          app.listen(PORT, () => {
+              console.log("Running")
+          });
